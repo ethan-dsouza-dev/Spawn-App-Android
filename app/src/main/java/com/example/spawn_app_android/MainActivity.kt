@@ -163,8 +163,14 @@ fun EventsReel(events: List<String>, modifier: Modifier = Modifier) {
                         )
                         Text(
                             text = "Gather - Place Vanier",
-                            fontSize = 13.sp,
-                            modifier = Modifier.padding(vertical = 4.dp)
+                            fontSize = 15.sp,
+                            modifier = Modifier
+                                .padding(vertical = 4.dp)
+                                .background(
+                                    color = Color.Black.copy(alpha = 0.3f),
+                                    shape = RoundedCornerShape(32.dp)
+                                )
+                                .padding(horizontal = 16.dp, vertical = 8.dp)
 
                         )
                     }
