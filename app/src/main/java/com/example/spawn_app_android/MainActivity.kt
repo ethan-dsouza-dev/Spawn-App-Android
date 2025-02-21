@@ -148,7 +148,8 @@ fun EventsReel(events: List<String>, modifier: Modifier = Modifier) {
                         Text(
                             text = events[index],
                             fontSize = 22.sp,
-                            modifier = Modifier.padding(bottom = 4.dp)
+                            modifier = Modifier
+                                .padding(bottom = 4.dp)
                         )
                         Text(
                             text = "10:00 PM - 11:30 PM",
